@@ -17,7 +17,7 @@ function init() {
         current = ''
     }
 
-    //Evaluate the value on current string
+    //Evaluate the value of the current variable
     function displayResult() {
         result = eval(current)
         displayElm.textContent = result;
